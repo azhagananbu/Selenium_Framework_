@@ -8,7 +8,7 @@ import com.learn.pages.Login_page_Factory;
 
 public class Login_Test_CRM extends Baseclasses{
 	
-	@Test(priority = 1)
+	@Test()
 	public void LoginApp() 
 	{
 		

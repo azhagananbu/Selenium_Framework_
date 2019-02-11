@@ -30,12 +30,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="/Selnium_Basic_Test_Classes"/>
-	<classpathentry kind="lib" path="/home/anbu/Downloads/jar_files/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="/home/anbu/Downloads/jar_files/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="/home/anbu/Downloads/jar_files/poi-3.16.jar"/>
-	<classpathentry kind="lib" path="lib/commons-codec-1.10.jar"/>
-	<classpathentry kind="lib" path="lib/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="lib/poi-3.16.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
