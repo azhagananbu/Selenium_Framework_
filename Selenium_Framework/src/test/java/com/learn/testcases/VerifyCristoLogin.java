@@ -26,9 +26,9 @@ public class VerifyCristoLogin {
 		
 		Login_page login = new Login_page(driver);
 		
-		login.typeusername("");
+		login.typeusername("justin.a");
 		
-		login.typepassword("");
+		login.typepassword("cristo");
 		
 		login.clickonloginbutton();
 		
