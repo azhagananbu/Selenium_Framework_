@@ -11,12 +11,12 @@
       <![CDATA[Trying to start Browser and Getting application ready]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="2266" started-at="2019-02-11T17:56:12Z" finished-at="2019-02-11T17:56:15Z">
+  <suite name="Suite" duration-ms="1533" started-at="2019-02-11T17:58:46Z" finished-at="2019-02-11T17:58:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2266" started-at="2019-02-11T17:56:12Z" finished-at="2019-02-11T17:56:15Z">
+    <test name="Test" duration-ms="1533" started-at="2019-02-11T17:58:46Z" finished-at="2019-02-11T17:58:48Z">
       <class name="com.learn.testcases.Login_Test_CRM">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="setUpSuite" is-config="true" duration-ms="833" started-at="2019-02-11T17:56:11Z" finished-at="2019-02-11T17:56:12Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="setUpSuite" is-config="true" duration-ms="616" started-at="2019-02-11T17:58:45Z" finished-at="2019-02-11T17:58:46Z">
           <reporter-output>
             <line>
               <![CDATA[Seting up reports and The Test getting ready]]>
@@ -26,7 +26,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="setup" is-config="true" duration-ms="2226" started-at="2019-02-11T17:56:12Z" finished-at="2019-02-11T17:56:15Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="setup" is-config="true" duration-ms="1498" started-at="2019-02-11T17:58:46Z" finished-at="2019-02-11T17:58:48Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[other os error
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="LoginApp()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="LoginApp" duration-ms="0" started-at="2019-02-11T17:56:15Z" finished-at="2019-02-11T17:56:15Z">
+        <test-method status="SKIP" signature="LoginApp()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="LoginApp" duration-ms="0" started-at="2019-02-11T17:58:48Z" finished-at="2019-02-11T17:58:48Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[other os error
@@ -177,11 +177,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginApp -->
-        <test-method status="SKIP" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-02-11T17:56:15Z" finished-at="2019-02-11T17:56:15Z">
+        <test-method status="SKIP" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2019-02-11T17:58:48Z" finished-at="2019-02-11T17:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-11T17:56:15Z" finished-at="2019-02-11T17:56:15Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.learn.testcases.Login_Test_CRM@6b0c2d26]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-11T17:58:48Z" finished-at="2019-02-11T17:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
