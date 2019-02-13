@@ -24,13 +24,13 @@ public class Login_page_Factory {
 		
 	}
 	
-	@FindBy(linkText="Sign In") WebElement SignIn;
+//	@FindBy(linkText="Sign In") WebElement SignIn;
 	
-	@FindBy(xpath="//input[@id='username']") WebElement username;
+	@FindBy(xpath="//input[@id='txtUsername']") WebElement username;
 	
-	@FindBy(xpath="//input[@placeholder='Password']") WebElement password;
+	@FindBy(xpath="//input[@id='txtPassword']") WebElement password;
 	
-	@FindBy(xpath="//input[@value='Sign in']") WebElement loginBtn;
+	@FindBy(xpath="//input[@id='btnLogin']") WebElement loginBtn;
 	
 //	By username = By.xpath("//*[@id=\"login\"]");
 //	By password = By.xpath("//*[@id=\"password\"]");
@@ -47,7 +47,7 @@ public class Login_page_Factory {
 			e.printStackTrace();
 		}
 		
-		SignIn.click();
+//		SignIn.click();
 		username.sendKeys(uid);
 		password.sendKeys(pass);
 		loginBtn.click();

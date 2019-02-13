@@ -38,7 +38,7 @@ public class Baseclasses {
 		config = new ConfigDataProvider();
 		
 		ExtentHtmlReporter extent = new ExtentHtmlReporter
-				(new File(System.getProperty("user.dir")+"/Reports/LooperSoft_"+Helper.getCurrentDateTime()+".html"));
+				(new File(System.getProperty("user.dir")+"/Reports/OrangeHRm_"+Helper.getCurrentDateTime()+".html"));
 		report = new ExtentReports();
 		report.attachReporter(extent);
 		
