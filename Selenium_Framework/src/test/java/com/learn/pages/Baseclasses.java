@@ -46,7 +46,7 @@ public class Baseclasses {
 
 	}
 	
-//	@Parameters({"browser" , "urlTobeTested"})
+	@Parameters({"browser" , "urlTobeTested"})
 	@BeforeClass
 	public void setup(String browser , String url) 
 	{
